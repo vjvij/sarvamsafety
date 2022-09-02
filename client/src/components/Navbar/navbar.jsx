@@ -36,9 +36,23 @@ const LgNavbar = () => {
       link: "/",
     },
   ];
+  const navItems1 = [
+    {
+      name: "Wish List",
+      link: "/",
+    },
+    {
+      name: "Cart",
+      link: "/",
+    },
+    {
+      name: "Home",
+      link: "/",
+    },
+  ];
   return (
     <>
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center fixed w-full z-50 bg-gray-50">
         <div className="w-full flex items-end justify-between gap-10 px-12 pb-4">
           <div className="flex items-end gap-5 w-full">
             <img
@@ -66,7 +80,7 @@ const LgNavbar = () => {
             ))}
           </div>
           <div className="flex items-center justify-center gap-5 list-none">
-            {navItems.map((item) => (
+            {navItems1.map((item) => (
               <li>{item.name}</li>
             ))}
           </div>

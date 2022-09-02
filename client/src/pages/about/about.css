@@ -1,0 +1,150 @@
+.border{
+    /* width: auto;
+    height: auto;
+    background-color: aquamarine;
+    padding-top: 10px;
+    box-sizing: border-box; */
+}
+.content_border{
+   
+    width: 1200px;
+    background-color: aliceblue;
+    margin-left: 180px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.dotline{
+   
+    padding-left: 300px;
+    padding-top: 40px;
+
+}
+.para1{
+    padding-top: 30px;
+    font: weight 300px;;
+    font-size: smaller;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.black{
+    color: rgb(27, 25, 25);
+    padding-top: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.para2{
+    padding-left: 50px;
+    padding-top: 20px;
+}.para3{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.aboutus{
+    padding-left: 180px;
+    font-size: 25px;
+    padding-top: 100px;
+}
+.table{
+    
+    width: 70%;
+    height: 400px;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+.sub-table1{
+   
+    height: 50%;
+    margin-top: 20px;
+    display: flex;
+    
+}
+.sub-table2{
+    border: 1px solid rgba(11, 11, 12, 0.244);
+    width: 100%;
+    height: 100%;
+    margin-left: 40px;
+    display: flex;
+    border-radius: 10px;
+    
+
+}
+.table3{
+    
+    width: 30%;
+    height: 80%;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    
+
+}
+.table4{
+    
+    width: 60%;
+    height: 80%;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 50px;
+
+}
+.happy{
+    font-weight: bold;
+    padding-left: 50px;
+
+padding-top: 80px;
+font-size: larger;}
+.lastborder{
+    border: 1px solid rgb(234, 213, 213);
+    height: 100px;
+    margin: 20px;
+    border-style: double;
+}
+.customer{
+    padding-left: 20px;
+    padding-top: 5px;
+    font-weight: lighter;
+}
+.cust_color{
+    color: rgb(7, 99, 7);
+    padding-left: 20px;
+}
+
+@media screen and (min-width:0px ) and (max-width:400px) {
+    .border{
+        width: 100%;
+        height: auto;
+
+   
+   box-sizing: border-box;
+
+}
+.content_border{
+    width: 100%;
+    background-color: aliceblue;
+    margin: 0px;
+    height: auto;
+    padding: 30px;
+    
+    box-sizing: border-box;
+}.dotline{
+    padding: 0px;
+
+
+}.para1{
+   
+    font-weight: lighter;
+    font-size: smaller;
+}
+.black{
+    color: rgb(27, 25, 25);
+    
+}
+
+    
+}
