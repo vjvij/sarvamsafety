@@ -1,18 +1,23 @@
+import ChooseUS from "../../components/cards/chooseUs.component";
 import LgNavbar from "../../components/Navbar/navbar";
-import "./about.css";
+
 function Aboutpage() {
   return (
     <>
-      <div className="border">
-        <LgNavbar />
-        <h1 className="aboutus">Aboutus</h1>
-        <div className="content_border">
-          <div className="dotline">
-            ------------------------------------ <strong> Who we are </strong>{" "}
-            ------------------------------------
-          </div>
-          <div className="para1">
-            <p>
+      <div className="px-44 py-20 flex flex-col items-center justify-center gap-20">
+        <div>
+          <h4 className="font-bold text-gray-800 text-xl pb-10 text-center">
+            Who we are
+          </h4>
+          <div className="flex items-center justify-center gap-20">
+            <div className="w-96 h-96">
+              <img
+                src="https://image.shutterstock.com/image-illustration/-260nw-306682604.jpg"
+                alt=""
+                className="rounded-lg shadow-xl w-full h-full"
+              />
+            </div>
+            <p className="w-1/2 text-sm font-semibold text-gray-400">
               The word 'SARVAM' a Sanskrit word that stands for "Everything" or
               "Complete", represents to the totality of our strengths as a
               company - Infrastructure, Man power, Rich Experience, Extensive
@@ -41,128 +46,98 @@ function Aboutpage() {
               blankets , etc.
             </p>
           </div>
-          <div className="black">
+        </div>
+        <div>
+          <h4 className="text-xl font-bold pb-10">Why Choose Us</h4>
+          <ChooseUS />
+        </div>
+
+        <div>
+          <h4 className="text-xl font-semibold text-xl text-gray-800 text-center">
             Our consistent practices of strict adherence to quality, prompt
             delivery and efficient service have enabled us to be proud channel
             partner for various reputed safety Equipment Manufacturers and to
             name the few:
+          </h4>
+          <div className="flex flex-col items-center gap-4 pt-10 text-lg font-semibold text-gray-400">
+            <p>
+              3M India Ltd - Personal safety division , Abbrasive , Adhesives{" "}
+            </p>
+            <p>
+              Acme Fabrik Plast Company - Safety Shoes & Rainwears * Dupont
+              India
+            </p>
+            <p>
+              Pvt Limited - Chemical Protective Clothings , Gloves * E-Square
+            </p>
+            <p>
+              Alliance Pvt. Ltd. - Lockouts & Tag Out, Traffic Safety * Garware
+            </p>
+            <p>
+              Wall ropes Ltd - Safety Net, Ropes * Honeywell Analytics –
+              Portable
+            </p>
+            <p>
+              & Fixed Gas detectors * Honeywell Safety Products * Karam
+              Industries
+            </p>
+            <p>
+              - Fall protection & PPE'S * Prolite Autoglo limited - Emergency
+            </p>
+            <p>
+              Lights & Glow Signages * Superhouse Limited - Safety Shoes & Work
+            </p>
+            <p>
+              wear * Sagar Asia – Ladders and Scaffold. * Tara Lohia Pvt. Ltd.,
+              -
+            </p>
+            <p>Kevlar Gloves/ FR Cover all</p>
           </div>
-          <div className="para2">
-            <p>
-              * 3M India Ltd - Personal safety division , Abbrasive , Adhesives
-            </p>
-            <p>* Acme Fabrik Plast Company - Safety Shoes & Rainwears</p>
-            <p>
-              * Dupont India Pvt Limited - Chemical Protective Clothings ,
-              Gloves
-            </p>
-            <p>
-              * E-Square Alliance Pvt. Ltd. - Lockouts & Tag Out, Traffic Safety
-            </p>
-            <p>* Garware Wall ropes Ltd - Safety Net, Ropes</p>
-            <p>* Honeywell Analytics – Portable & Fixed Gas detectors</p>
-            <p>* Honeywell Safety Products</p>
-            <p>* Karam Industries - Fall protection & PPE'S</p>
-            <p>* Prolite Autoglo limited - Emergency Lights & Glow Signages</p>
-            <p>* Superhouse Limited - Safety Shoes & Work wear</p>
-            <p>* Sagar Asia – Ladders and Scaffold.</p>
-            <p>* Tara Lohia Pvt. Ltd., - Kevlar Gloves/ FR Cover all</p>
-          </div>
-          <p className="para3">
+        </div>
+        <hr className="text-gray-400 text-4xl w-full" />
+        <div>
+          <h4 className="text-xl font-semibold text-xl text-gray-800 text-center">
             We also represent, few Reputed International Safety Manufacturers
             like
-          </p>
-          <div className="para2">
+          </h4>
+          <div className="flex flex-col items-center gap-4 pt-10 text-lg font-semibold text-gray-400">
             <p>
-              {" "}
-              * Cardiac Science Corporation - Automatic External Defibrillator
+              Cardiac Science Corporation - Automatic External Defibrillator
             </p>
-            <p>* Defibtech LLC– Automatic External Defibrillator.</p>
-            <p>* Esca Tech Inc - D Lead Hand & Body Wash solutions</p>
             <p>
-              * Justrite Manufacturing Co - Safety Cans & Cabinets for Flammable
-              Liquid storage
+              Defibtech LLC– Automatic External Defibrillator. * Esca Tech Inc -
+              D
             </p>
-            <p>* Alliance Rubber – Malaysia – Thin Nitrile gloves</p>
-            <p>* Polison Corporation – Taiwan – Blue Eagle face shield</p>
-            <p>* Tempshield Incorporated - USA – Cyro gloves & Aprons</p>
-            <p>* Showa Glove Co – Malaysia – Gloves</p>
-            <p>* Lalan Rubber – Srilanka - Gloves</p>
-          </div>
-          <p className="para2">
-            Sarvam Safety is headquartered in Chennai, with branch offices at
-            Coimbatore, Madurai, Pondicherry and Cochin. We also have
-            distribution reach across India to cater to the safety needs of our
-            valued customers, wherever they may be located.
-          </p>
-
-          <p className="para2">
-            Here with this letter please find enclosed our company Bank, GST and
-            other details and we request you to register our company name in
-            your vendor list and encourage us your valuable business.
-          </p>
-
-          <p className="para2">
-            Thanking you and anticipating your support which shall have our best
-            and prompt attention at all times.
-          </p>
-          <div className="dotline">
-            ------------------------------------{" "}
-            <strong> Why choose us </strong>{" "}
-            ------------------------------------
-          </div>
-          <div className="table">
-            <div className="sub-table1">
-              <div className="sub-table2">
-                <div className="table3">
-                  <img
-                    src="https://sarvamsafety.com/image/catalog/about/rich.png"
-                    alt="imGE1"
-                  ></img>
-                </div>
-                <div className="table4">RICH EXPERIENCE</div>
-              </div>
-              <div className="sub-table2">
-                <div className="table3">
-                  <img
-                    src="https://sarvamsafety.com/image/catalog/about/Quality.png"
-                    alt="imGE2"
-                  ></img>
-                </div>
-                <div className="table4">Quality</div>
-              </div>
-            </div>
-            <div className="sub-table1">
-              <div className="sub-table2">
-                <div className="table3">
-                  <img
-                    src="https://sarvamsafety.com/image/catalog/about/Extensive.png"
-                    alt="imGE3"
-                  ></img>
-                </div>
-                <div className="table4">EXTENSIVE PRODUCT RANGE</div>
-              </div>
-              <div className="sub-table2">
-                <div className="table3">
-                  <img
-                    src="https://sarvamsafety.com/image/catalog/about/Efficiency.png"
-                    alt="imGE4"
-                  ></img>
-                </div>
-                <div className="table4">EFFICIENCY</div>
-              </div>
-            </div>
-          </div>
-          <div className="happy">Happy customer says</div>
-          <div className="lastborder">
-            <p className="customer">
-              Got some hair nets from here.they're quality and order was
-              processed smoothly.what's more in the staff is so helpful!
-              Especially Mr.krishna,an executive who really helped me get my
-              order as quick as possible as i was in a hurry
+            <p>
+              Lead Hand & Body Wash solutions * Justrite Manufacturing Co -
+              Safety
             </p>
-            <p className="cust_color">-Veenth</p>
+            <p>
+              Cans & Cabinets for Flammable Liquid storage * Alliance Rubber –
+            </p>
+            <p>
+              Malaysia – Thin Nitrile gloves * Polison Corporation – Taiwan –
+              Blue
+            </p>
+            <p>
+              Eagle face shield * Tempshield Incorporated - USA – Cyro gloves &
+            </p>
+            <p>Aprons * Showa Glove Co – Malaysia – Gloves * Lalan Rubber –</p>
+            <p>Srilanka - Gloves</p>
           </div>
+          <hr className="text-gray-400 text-4xl w-full" />
+        </div>
+        <div className="bg-gray-50 px-6 py-5 shadow-xl border-gray-50">
+          <h4 className="text-xl font-bold pb-4">Happy customer says</h4>
+          <p className="text-lg font-semibold text-gray-400 pl-4">
+            Got some hair nets from here.they're quality and order was processed
+            smoothly.what's more in the staff is so helpful! Especially
+            Mr.krishna,an executive who really helped me get my order as quick
+            as possible as i was in a hurry
+          </p>
+          <span className="text-xl font-semibold text-blue-800 pt-6">
+            Veenth Abhram
+          </span>
         </div>
       </div>
     </>
