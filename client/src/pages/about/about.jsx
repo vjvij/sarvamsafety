@@ -1,12 +1,12 @@
-import ChooseUS from "../../components/cards/chooseUs.component";
+// import ChooseUS from "../../components/cards/chooseUs.component";
 import LgNavbar from "../../components/Navbar/navbar";
 
 function Aboutpage() {
   return (
     <>
-      <div className="px-44 py-20 flex flex-col items-center justify-center gap-20">
+      <div className="flex flex-col items-center justify-center gap-20 py-20 px-44">
         <div>
-          <h4 className="font-bold text-gray-800 text-xl pb-10 text-center">
+          <h4 className="pb-10 text-xl font-bold text-center text-gray-800">
             Who we are
           </h4>
           <div className="flex items-center justify-center gap-20">
@@ -14,7 +14,7 @@ function Aboutpage() {
               <img
                 src="https://image.shutterstock.com/image-illustration/-260nw-306682604.jpg"
                 alt=""
-                className="rounded-lg shadow-xl w-full h-full"
+                className="w-full h-full rounded-lg shadow-xl"
               />
             </div>
             <p className="w-1/2 text-sm font-semibold text-gray-400">
@@ -48,12 +48,12 @@ function Aboutpage() {
           </div>
         </div>
         <div>
-          <h4 className="text-xl font-bold pb-10">Why Choose Us</h4>
-          <ChooseUS />
+          <h4 className="pb-10 text-xl font-bold">Why Choose Us</h4>
+          {/* <ChooseUS /> */}
         </div>
 
         <div>
-          <h4 className="text-xl font-semibold text-xl text-gray-800 text-center">
+          <h4 className="text-xl font-semibold text-center text-gray-800">
             Our consistent practices of strict adherence to quality, prompt
             delivery and efficient service have enabled us to be proud channel
             partner for various reputed safety Equipment Manufacturers and to
@@ -94,9 +94,9 @@ function Aboutpage() {
             <p>Kevlar Gloves/ FR Cover all</p>
           </div>
         </div>
-        <hr className="text-gray-400 text-4xl w-full" />
+        <hr className="w-full text-4xl text-gray-400" />
         <div>
-          <h4 className="text-xl font-semibold text-xl text-gray-800 text-center">
+          <h4 className="text-xl font-semibold text-center text-gray-800">
             We also represent, few Reputed International Safety Manufacturers
             like
           </h4>
@@ -125,17 +125,17 @@ function Aboutpage() {
             <p>Aprons * Showa Glove Co – Malaysia – Gloves * Lalan Rubber –</p>
             <p>Srilanka - Gloves</p>
           </div>
-          <hr className="text-gray-400 text-4xl w-full" />
+          <hr className="w-full text-4xl text-gray-400" />
         </div>
-        <div className="bg-gray-50 px-6 py-5 shadow-xl border-gray-50">
-          <h4 className="text-xl font-bold pb-4">Happy customer says</h4>
-          <p className="text-lg font-semibold text-gray-400 pl-4">
+        <div className="px-6 py-5 shadow-xl bg-gray-50 border-gray-50">
+          <h4 className="pb-4 text-xl font-bold">Happy customer says</h4>
+          <p className="pl-4 text-lg font-semibold text-gray-400">
             Got some hair nets from here.they're quality and order was processed
             smoothly.what's more in the staff is so helpful! Especially
             Mr.krishna,an executive who really helped me get my order as quick
             as possible as i was in a hurry
           </p>
-          <span className="text-xl font-semibold text-blue-800 pt-6">
+          <span className="pt-6 text-xl font-semibold text-blue-800">
             Veenth Abhram
           </span>
         </div>

@@ -11,7 +11,7 @@ const HomePage = () => {
     <div className="relative">
       <LgNavbar />
       <CarouselComponent />
-      <div className="px-20 flex flex-col gap-20">
+      <div className="flex flex-col gap-20 px-20">
         <Cards />
         <TopCollections />
         <Products name={"Leg Protection"} />
