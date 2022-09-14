@@ -6,10 +6,11 @@ import TopCollections from "../../components/carsoules/topCollections";
 import LgNavbar from "../../components/Navbar/navbar";
 import Aboutpage from "../about/about";
 
+
 const HomePage = () => {
   return (
     <div className="relative">
-      <LgNavbar />
+     
       <CarouselComponent />
       <div className="flex flex-col gap-20 px-20">
         <Cards />

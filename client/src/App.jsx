@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { Route, Router, Routes } from 'react-router-dom';
 import Aboutpage from './pages/about/about';
 import LgNavbar from "./components/Navbar/navbar";
+
 const App = () => {
   return (
     <>

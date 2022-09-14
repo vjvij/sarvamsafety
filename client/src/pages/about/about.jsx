@@ -1,4 +1,4 @@
-// import ChooseUS from "../../components/cards/chooseUs.component";
+
 import LgNavbar from "../../components/Navbar/navbar";
 
 function Aboutpage() {
@@ -49,7 +49,7 @@ function Aboutpage() {
         </div>
         <div>
           <h4 className="pb-10 text-xl font-bold">Why Choose Us</h4>
-          {/* <ChooseUS /> */}
+         
         </div>
 
         <div>

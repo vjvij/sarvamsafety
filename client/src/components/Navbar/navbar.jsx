@@ -1,5 +1,11 @@
 import React from "react";
 import { RiSearchLine } from "react-icons/ri";
+import Navbar from "./navbar1";
+
+
+
+
+
 
 const LgNavbar = () => {
   const navItems = [
@@ -52,28 +58,29 @@ const LgNavbar = () => {
   ];
   return (
     <>
-      <div className="flex flex-col items-center justify-center fixed w-full z-50 bg-gray-50">
-        <div className="w-full flex items-end justify-between gap-10 px-12 pb-4">
-          <div className="flex items-end gap-5 w-full">
+    <Navbar/>
+      <div className="fixed z-50 flex flex-col items-center justify-center w-full bg-gray-50">
+        <div className="flex items-end justify-between w-full gap-10 px-12 pb-4">
+          <div className="flex items-end w-full gap-5">
             <img
               src="https://sarvamsafety.com/image/catalog/logo1.png"
               alt=""
-              className="w-96 h-20"
+              className="h-20 w-96"
             />
-            <div className="flex items-center gap-2 w-5/12 border border-gray-200 h-10 bg-gray-50 rounded-sm shadow-md">
-              <input type="text" className=" w-full h-8" />
+            <div className="flex items-center w-5/12 h-10 gap-2 border border-gray-200 rounded-sm shadow-md bg-gray-50">
+              <input type="text" className="w-full h-8 " />
               <span className="bg-yellow-400 p-2.5">
-                <RiSearchLine className="font-bold text-xl" />
+                <RiSearchLine className="text-xl font-bold" />
               </span>
             </div>
           </div>
           <div>
-            <button className="px-4 py-1 bg-green-600 rounded-sm text-gray-50 font-semibold">
+            <button className="px-4 py-1 font-semibold bg-green-600 rounded-sm text-gray-50">
               Login
             </button>
           </div>
         </div>
-        <div className="flex items-center justify-between w-full px-12 bg-green-500 py-2 font-bold text-gray-50">
+        <div className="flex items-center justify-between w-full px-12 py-2 font-bold bg-green-500 text-gray-50">
           <div className="flex items-center justify-center gap-5 list-none">
             {navItems.map((item) => (
               <li>{item.name}</li>
