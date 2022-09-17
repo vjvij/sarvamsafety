@@ -110,6 +110,81 @@ window.onclick = function(event) {
 
    
 }
+
+
+window.onclick = function(event) {
+  // document.querySelector(".active2").style.display="none";
+  //         document.querySelector(".active3").style.display="none";
+  //            document.querySelector(".active4").style.display="none";
+  //    document.querySelector(".active5").style.display="none";
+   
+     console.log(event.target)
+     
+
+       let s1= document.querySelector(".active3").style;
+
+     
+
+       if(s1.display==="block" && event.target.name!=="solution"){
+             
+         console.log("solutions1")
+       console.log(s1.display,"s");
+           s1.display="none";
+           flag=false;
+
+       }
+
+   
+}
+
+window.onclick = function(event) {
+  // document.querySelector(".active2").style.display="none";
+  //         document.querySelector(".active3").style.display="none";
+  //            document.querySelector(".active4").style.display="none";
+  //    document.querySelector(".active5").style.display="none";
+   
+     console.log(event.target)
+     
+
+       let s1= document.querySelector(".active4").style;
+
+     
+
+       if(s1.display==="block" && event.target.name!=="solution"){
+             
+         console.log("solutions1")
+       console.log(s1.display,"s");
+           s1.display="none";
+           flag=false;
+
+       }
+
+   
+}
+window.onclick = function(event) {
+  // document.querySelector(".active2").style.display="none";
+  //         document.querySelector(".active3").style.display="none";
+  //            document.querySelector(".active4").style.display="none";
+  //    document.querySelector(".active5").style.display="none";
+   
+     console.log(event.target)
+     
+
+       let s1= document.querySelector(".active5").style;
+
+     
+
+       if(s1.display==="block" && event.target.name!=="solution"){
+             
+         console.log("solutions1")
+       console.log(s1.display,"s");
+           s1.display="none";
+           flag=false;
+
+       }
+
+   
+}
 function customer()
 {
  
@@ -154,21 +229,21 @@ else
     </div>
   </div> 
     <div class="dropdown">
-    <button onClick={industry} key="" class="dropbtn">INDUSTRIES<VscChevronDown id="icon" style={{marginLeft:180,marginTop:-12}}/>
+    <button onClick={industry} name="solution" class="dropbtn">INDUSTRIES<VscChevronDown id="icon" style={{marginLeft:180,marginTop:-12}}/>
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
     </div>
   </div> 
   <div class="dropdown">
-    <button onClick={about}  class="dropbtn">ABOUT <VscChevronDown id="icon" style={{marginLeft:155,marginTop:-12}}/>
+    <button onClick={about}  name="solution"  class="dropbtn">ABOUT <VscChevronDown id="icon" style={{marginLeft:155,marginTop:-12}}/>
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
     </div>
   </div> 
   <div class="dropdown">
-    <button onClick={customer} class="dropbtn">CUSTOMER PROJECTS<VscChevronDown id="icon" style={{marginLeft:225,marginTop:-12}}/>
+    <button onClick={customer} name="solution"  class="dropbtn">CUSTOMER PROJECTS<VscChevronDown id="icon" style={{marginLeft:225,marginTop:-12}}/>
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
