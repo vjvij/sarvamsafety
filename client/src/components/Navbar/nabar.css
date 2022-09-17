@@ -332,3 +332,7 @@ background-color: #3ca4cd;
   width: 200px;
   height: 80px;
 }
+#icon{
+  position: relative;
+  bottom: 7px;
+}
